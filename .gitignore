@@ -1,0 +1,7 @@
+.idea
+.certs
+test1.db
+.vscode
+*.log
+*.exe
+*.db
