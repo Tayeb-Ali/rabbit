@@ -5,5 +5,5 @@ func main() {
 	go initConsumer()
 
 	// producer
-	//initProducer()
+	initProducer()
 }
