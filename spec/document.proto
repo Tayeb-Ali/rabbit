@@ -1,0 +1,22 @@
+syntax="proto3";
+
+option go_package = "gitlab.com/rahasak-labs/rabbit/spec";
+
+package main;
+
+message Document {
+    string id = 1;
+    string name = 2;
+    int64 timestamp = 3;
+}
+
+message CreateDocumentMessage {
+    string uid = 1;
+    Document document = 2;
+    string replyTo = 3;
+}
+
+message CreateDocumentReply {
+    string uid = 1;
+    string status = 2;
+}
