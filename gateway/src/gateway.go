@@ -5,7 +5,7 @@ func main() {
 	go initConsumer()
 
 	// producer
-	//go initProducer()
+	go initProducer()
 
 	// document REST api
 	initApi()
