@@ -102,7 +102,7 @@ http://localhost:15672/#/queues
 - https://jbrandhorst.com/post/go-protobuf-tips/
 - https://tutorialedge.net/golang/go-protocol-buffer-tutorial/
 - https://kjanshair.github.io/2018/08/20/demystifying-protocol-buffers-and-grpc-with-go/
-- https://medium.com/rahasak/microservice-response-aggregate-with-golang-goroutines-6aa84aea6fca
+- https://medium.com/rahasak/microservice-response-aggregate-with-golang-goroutines-6aa84aea6fca -"Microservice response aggregate with golang and kafka".
 - https://bit.ly/2MCczkQ "Work queue with Go and RabbitMQ
 ".
 - https://www.rabbitmq.com/tutorials/tutorial-one-go.html -"rabbitmq get Start".
