@@ -1,0 +1,29 @@
+rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    environment:
+        - RABBITMQ_DEFAULT_USER=admin
+        - RABBITMQ_DEFAULT_PASS=admin
+    ports:
+        - 15671:15671
+        - 15672:15672
+        - 25672:25672
+        - 5671:5671
+        - 5672:5672
+        - 4369:4369
+
+
+gateway:
+    image: erangaeb/doc-gateway:0.1
+    container_name: gateway
+    environment:
+        - RABBIT_URI=amqp://admin:admin@host.docker.internal:5672/
+    ports:
+        - 7654:7654
+
+
+storage:
+    image: erangaeb/doc-storage:0.1
+    container_name: storage
+    environment:
+        - RABBIT_URI=amqp://admin:admin@host.docker.internal:5672/
