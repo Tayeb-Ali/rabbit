@@ -18,3 +18,20 @@ Finally gateway service convert `Protobuf` message which receives from storage
 service into `JSON` object and send it back to client. Gateway service listen to 
 Rabbitmq `gateway` queue and Storage service listen to `storage` queue.
 
+
+![Alt text](image/rabbit.png?raw=true "Architecture")
+
+## Compile protobuf
+
+```
+# install protoc
+brew install protobuf
+
+# install go protobuf
+go get github.com/golang/protobuf
+go get github.com/golang/protobuf/protoc-gen-go
+
+# complie protobuf
+protoc spec/*.proto --go_out=:$GOPATH/src
+```
+
