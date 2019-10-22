@@ -103,5 +103,6 @@ http://localhost:15672/#/queues
 - https://tutorialedge.net/golang/go-protocol-buffer-tutorial/
 - https://kjanshair.github.io/2018/08/20/demystifying-protocol-buffers-and-grpc-with-go/
 - https://medium.com/rahasak/microservice-response-aggregate-with-golang-goroutines-6aa84aea6fca
-- https://bit.ly/2MCczkQ
-- https://www.rabbitmq.com/tutorials/tutorial-one-go.html
+- https://bit.ly/2MCczkQ "Work queue with Go and RabbitMQ
+".
+- https://www.rabbitmq.com/tutorials/tutorial-one-go.html -"rabbitmq get Start".
