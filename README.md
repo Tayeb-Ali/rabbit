@@ -96,3 +96,12 @@ informations, broker informations etc can be viewd from this admin console.
 //  password - admin
 http://localhost:15672/#/queues
 ```
+
+## Reference: 
+
+- https://jbrandhorst.com/post/go-protobuf-tips/
+- https://tutorialedge.net/golang/go-protocol-buffer-tutorial/
+- https://kjanshair.github.io/2018/08/20/demystifying-protocol-buffers-and-grpc-with-go/
+- https://medium.com/rahasak/microservice-response-aggregate-with-golang-goroutines-6aa84aea6fca
+- https://bit.ly/2MCczkQ
+- https://www.rabbitmq.com/tutorials/tutorial-one-go.html
